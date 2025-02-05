@@ -80,11 +80,5 @@ python deduplicate.py leads.json deduplicated_leads.json change_log.json
 ]
 ```
 
-## Notes
-- The script assumes that all records fit into memory.
-- It only removes duplicates based on `_id` and `email`.
-- Any changes made are logged in `change_log.json`.
 
-## Contact
-For any questions, feel free to reach out via GitHub Issues or email.
 
